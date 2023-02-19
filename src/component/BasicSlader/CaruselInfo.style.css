@@ -1,0 +1,23 @@
+.container-carousal {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100vw;
+}
+.carouselText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.carouselText h2 {
+  margin: 5px auto;
+}
+.carouselText p {
+  margin: 5px auto;
+}
+.carouselText a {
+  color: blue;
+  text-decoration: underline;
+  margin-top: 4px;
+}

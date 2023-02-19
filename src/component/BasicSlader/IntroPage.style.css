@@ -1,0 +1,37 @@
+.IntroPage {
+  height: auto;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6) url("../../assets/infop.jpg");
+  background-blend-mode: darken;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionOne {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionOne h1 {
+  font-size: 48px;
+}
+.sectionOne h2 {
+  font-size: 32px;
+}
+
+.sectionOne ul {
+  list-style-type: none;
+  text-align: start;
+  padding: 0;
+}
+.sectionOne ul li {
+  margin: 15px 0;
+}

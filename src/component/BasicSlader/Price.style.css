@@ -1,0 +1,31 @@
+.price {
+  height: auto;
+  min-height: 100vh;
+  background: url("../../assets/bara.png");
+  background-size: 50%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.priceInfo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.priceInfo h2 {
+  font-size: 38px;
+  width: 420px;
+}
+.priceInfo p {
+  width: 420px;
+  font-size: 22px;
+  text-align: left;
+}

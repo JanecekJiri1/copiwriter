@@ -1,0 +1,30 @@
+.about {
+  height: auto;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6) url("../../assets/about.jpg");
+  background-blend-mode: darken;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aboutText {
+  color: white;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.aboutText h2 {
+  margin: 0 auto 0 0;
+}

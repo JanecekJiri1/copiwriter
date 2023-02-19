@@ -1,0 +1,45 @@
+.contactPage {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactH2 {
+  color: white;
+  width: 350px;
+  font-size: 32px;
+  margin: 35px 0;
+}
+
+.contactPage span {
+  font-size: 24px;
+  width: 450px;
+  display: flex;
+
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.icons {
+  margin: 0 15px 0 0;
+  width: 24px;
+}
+.contactPage svg {
+  width: 32px;
+  font-size: 32px;
+  position: relative;
+  bottom: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* indicator for contact */
