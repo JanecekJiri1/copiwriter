@@ -11,10 +11,10 @@ body {
   font-family: sans-serif;
 }
 
-#root {
+/* #root {
   width: 100%;
   height: 100%;
-}
+} */
 
 path {
   color: #00fa9a;
@@ -22,11 +22,11 @@ path {
 
 /* indicators */
 
-.arrowNext {
+/* .arrowNext {
   color: #f3f3f3;
   position: relative;
   height: 100px;
-}
+} */
 
 .leftInfo {
   position: absolute;
@@ -64,6 +64,23 @@ path {
 }
 
 .arrowNextIcons {
-  font-size: 52px;
+  font-size: 100px !important;
   margin: 2px;
+}
+
+.phoneVersionStyle {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .fullScreanV {
+    display: none;
+  }
+  .phoneVersionStyle {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/infop.jpg") !important;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }

@@ -1,15 +1,21 @@
 .price {
   height: auto;
   min-height: 100vh;
-  background: url("../../assets/bara.png");
-  background-size: 50%;
-  background-position: right center;
+  background: rgba(0, 0, 0, 0.6) url("../../assets/price.jpg");
+  background-blend-mode: darken;
+
+  background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
-  background-color: black;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .price {
+    background: rgba(0, 0, 0, 0);
+  }
 }
 
 .priceInfo {

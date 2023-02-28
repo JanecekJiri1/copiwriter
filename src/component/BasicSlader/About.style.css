@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+/* @media screen and (max-width: 600px) {
+  .about {
+    background: rgba(0, 0, 0, 0);
+  }
+} */
+
 .aboutText {
   color: white;
   width: 800px;

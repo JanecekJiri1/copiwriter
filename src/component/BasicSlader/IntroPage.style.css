@@ -1,7 +1,7 @@
 .IntroPage {
   height: auto;
   min-height: 100vh;
-  background: rgba(0, 0, 0, 0.6) url("../../assets/infop.jpg");
+  background: rgba(0, 0, 0, 0.3) url("../../assets/infop.jpg");
   background-blend-mode: darken;
 
   background-size: cover;
@@ -11,6 +11,18 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+  .IntroPage {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+/* .background {
+  background-image: url("../../assets/infop.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+} */
 
 .sectionOne {
   color: white;
