@@ -1,5 +1,5 @@
 import React from "react";
-import CaruselInfo from "./CaruselInfo";
+// import CaruselInfo from "./CaruselInfo";
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -11,6 +11,8 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import "./ContactPage.style.css";
 import AnimatedPage from "../AnimatedPage";
+
+import ReferencesSlider from "../ReferencesSlider";
 
 function ContactPage(props) {
   return (
@@ -47,7 +49,10 @@ function ContactPage(props) {
             </a>
           </span>
         </div>
-        <CaruselInfo />
+        <span className="heroS">
+          {/* <CaruselInfo />  */}
+          <ReferencesSlider />
+        </span>
       </div>
     </AnimatedPage>
   );
