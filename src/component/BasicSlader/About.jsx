@@ -1,12 +1,11 @@
 import React from "react";
-
 import "./About.style.css";
 
-import { Link } from "react-router-dom";
-
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
+import { Link } from "react-router-dom";
 import AnimatedPage from "../AnimatedPage";
-import ReferencesSlider from "../ReferencesSlider";
+import Swiper from "../Swiper";
 
 function About(props) {
   return (
@@ -48,7 +47,9 @@ function About(props) {
           </p>
         </div>
 
-        <ReferencesSlider />
+        <div className="sectionTwo">
+          <Swiper />
+        </div>
       </div>
     </AnimatedPage>
   );

@@ -1,9 +1,9 @@
 import React from "react";
 import "./IntroPage.style.css";
 
-import { Link } from "react-router-dom";
-
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
+import { Link } from "react-router-dom";
 import AnimatedPage from "../AnimatedPage";
 import Swiper from "../Swiper";
 

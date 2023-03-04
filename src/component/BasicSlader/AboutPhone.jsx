@@ -1,5 +1,6 @@
 import React from "react";
-
+import Swiper from "../Swiper";
+import { Link } from "react-router-dom";
 import "./About.style.css";
 
 function AboutPhone(props) {
@@ -25,6 +26,9 @@ function AboutPhone(props) {
           expedita, totam pariatur neque delectus quisquam est velit, consequuntur iusto quibusdam
           molestias architecto quia! Nesciunt amet quisquam delectus aliquid numquam.
         </p>
+      </div>
+      <div className="sectionTwo">
+        <Swiper />
       </div>
     </div>
   );

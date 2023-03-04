@@ -1,12 +1,12 @@
 import React from "react";
 import "./Price.style.css";
 
-import ReferencesSlider from "../ReferencesSlider";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import { Link } from "react-router-dom";
-
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import AnimatedPage from "../AnimatedPage";
+import Swiper from "../Swiper";
+
 function Price(props) {
   return (
     <AnimatedPage>
@@ -30,8 +30,9 @@ function Price(props) {
           <p>Hodinová sazba: 500 kč</p>
           <p>Úprava jedné normostrany: 250 kč</p>
         </div>
-        <ReferencesSlider />
-        {/* <CaruselInfo /> */}
+        <div className="sectionTwo">
+          <Swiper />
+        </div>
       </div>
     </AnimatedPage>
   );

@@ -18,14 +18,6 @@ path {
   color: #00fa9a;
 }
 
-/* indicators */
-
-/* .arrowNext {
-  color: #f3f3f3;
-  position: relative;
-  height: 100px;
-} */
-
 .leftInfo {
   position: absolute;
   height: 100vh;
@@ -66,14 +58,14 @@ path {
   margin: 2px;
 }
 
-.phoneVersionStyle {
+/* .phoneVersionStyle {
   display: none;
-}
+} */
 
 @media screen and (max-width: 600px) {
-  .fullScreanV {
+  /* .fullScreanV {
     display: none;
-  }
+  } */
   .phoneVersionStyle {
     display: flex;
     flex-direction: column;
@@ -108,7 +100,7 @@ body {
 }
 
 .index-module_Horizontal__8-P70 {
-  display: none;
+  /* display: none; */
 }
 
 ul > .index-module_Button__Xnq8E {
@@ -134,14 +126,42 @@ ul > .index-module_Active__l5OO4 {
   border-top: 1px solid black;
 }
 
+.referenceLinkP {
+  color: blue;
+}
+.referenceLinkP:hover {
+  text-decoration: underline;
+}
+
 .refSpan {
   position: relative;
   top: 15px;
 }
 
-.swiperP {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid blue;
+.carouselText h2 {
+  margin: 18px auto 10px;
+}
+.carouselText p {
+  margin: 12px 0;
+}
+
+.sectionTwo {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.swiper {
+  height: 165px;
+}
+
+.swiper-pagination-bullets {
+  color: green;
+}
+
+.sectionTwo span {
+  color: red;
+}
+
+#root {
+  --swiper-theme-color: rgba(0, 0, 0, 0.9);
+  --swiper-pagination-bullet-size: 14px;
 }

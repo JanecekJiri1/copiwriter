@@ -1,18 +1,14 @@
 import React from "react";
-// import CaruselInfo from "./CaruselInfo";
+import "./ContactPage.style.css";
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
-
-import { Link } from "react-router-dom";
-
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-import "./ContactPage.style.css";
+import { Link } from "react-router-dom";
 import AnimatedPage from "../AnimatedPage";
-
-import ReferencesSlider from "../ReferencesSlider";
+import Swiper from "../Swiper";
 
 function ContactPage(props) {
   return (
@@ -49,10 +45,9 @@ function ContactPage(props) {
             </a>
           </span>
         </div>
-        <span className="heroS">
-          {/* <CaruselInfo />  */}
-          <ReferencesSlider />
-        </span>
+        <div className="sectionTwo">
+          <Swiper />
+        </div>
       </div>
     </AnimatedPage>
   );
