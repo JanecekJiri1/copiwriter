@@ -1,11 +1,12 @@
 import React from "react";
-import CaruselInfo from "./CaruselInfo";
+
 import "./About.style.css";
 
 import { Link } from "react-router-dom";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import AnimatedPage from "../AnimatedPage";
+import ReferencesSlider from "../ReferencesSlider";
 
 function About(props) {
   return (
@@ -46,7 +47,8 @@ function About(props) {
             molestias architecto quia! Nesciunt amet quisquam delectus aliquid numquam.
           </p>
         </div>
-        <CaruselInfo />
+
+        <ReferencesSlider />
       </div>
     </AnimatedPage>
   );

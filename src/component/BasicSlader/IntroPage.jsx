@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import AnimatedPage from "../AnimatedPage";
+import Swiper from "../Swiper";
 
 function IntroPage(props) {
   return (
@@ -34,7 +35,9 @@ function IntroPage(props) {
             <li>Lorem ipsum dolor consectetur adipisicing.</li>
           </ul>
         </div>
-        <div className="sectionTwo">{/* <CaruselInfo /> */}</div>
+        <div className="sectionTwo">
+          <Swiper />
+        </div>
       </div>
     </AnimatedPage>
   );

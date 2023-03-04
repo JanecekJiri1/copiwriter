@@ -114,9 +114,11 @@ body {
 ul > .index-module_Button__Xnq8E {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 360%;
-  height: 17px;
-  min-width: 17px;
+  height: 15px;
+  min-width: 15px;
   border-bottom: none;
+  position: relative;
+  top: 10px;
 }
 
 ul > .index-module_Active__l5OO4 {
@@ -134,5 +136,12 @@ ul > .index-module_Active__l5OO4 {
 
 .refSpan {
   position: relative;
-  top: 25px;
+  top: 15px;
+}
+
+.swiperP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue;
 }

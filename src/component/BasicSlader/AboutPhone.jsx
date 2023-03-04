@@ -1,5 +1,4 @@
 import React from "react";
-import CaruselInfo from "./CaruselInfo";
 
 import "./About.style.css";
 
@@ -26,7 +25,6 @@ function AboutPhone(props) {
           expedita, totam pariatur neque delectus quisquam est velit, consequuntur iusto quibusdam
           molestias architecto quia! Nesciunt amet quisquam delectus aliquid numquam.
         </p>
-        {/* <CaruselInfo /> */}
       </div>
     </div>
   );

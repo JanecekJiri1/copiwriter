@@ -43,17 +43,36 @@ export default function ReferencesSlider() {
       className="heroS"
       slidingAnimation="left_to_right"
       orientation="horizontal"
-      height={"200px"}
-      autoplay
+      height={"175px"}
+      // autoplay={{ delay: 100 }}
+      onBeforeChange={(previousSlide, nextSlide) =>
+        console.log("onBeforeChange", previousSlide, nextSlide)
+      }
+      onChange={(nextSlide) => console.log("onChange", nextSlide)}
+      onAfterChange={(nextSlide) => console.log("onAfterChange", nextSlide)}
       controller={{
-        initialSlide: 1,
+        slidingDuration: 250,
+        slidingDelay: 100,
+        shouldAutoplay: true,
+        shouldDisplayButtons: true,
+
         autoplayDuration: 100,
-        slidingDuration: 500,
-        slidingDelay: 50,
-        onSliding: (nextSlide) => console.debug("onSliding(nextSlide): ", nextSlide),
-        onBeforeSliding: (previousSlide, nextSlide) =>
-          console.debug("onBeforeSliding(previousSlide, nextSlide): ", previousSlide, nextSlide),
-        onAfterSliding: (nextSlide) => console.debug("onAfterSliding(nextSlide): ", nextSlide),
+        autoplayDuration: 100,
+
+        autoplayDebounce: 100,
+        // shouldAutoplay: true,
+        // shouldDisplayButtons: true,
+        // autoplayDuration: 1000,
+
+        // initialSlide: 1,
+        // autoplayDuration: 100,
+        // slidingDuration: 500,
+        // slidingDelay: 50,
+        // onSliding: (nextSlide) => console.debug("onSliding(nextSlide): ", nextSlide),
+
+        // onBeforeSliding: (previousSlide, nextSlide) =>
+        //   console.debug("onBeforeSliding(previousSlide, nextSlide): ", previousSlide, nextSlide),
+        // onAfterSliding: (nextSlide) => console.debug("onAfterSliding(nextSlide): ", nextSlide),
       }}
       style={{ backgroundColor: "rgba(249, 249, 249, 0.5)" }}
     >

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Price.style.css";
-import CaruselInfo from "./CaruselInfo";
+
+import ReferencesSlider from "../ReferencesSlider";
 
 import { Link } from "react-router-dom";
 
@@ -29,7 +30,8 @@ function Price(props) {
           <p>Hodinová sazba: 500 kč</p>
           <p>Úprava jedné normostrany: 250 kč</p>
         </div>
-        <CaruselInfo />
+        <ReferencesSlider />
+        {/* <CaruselInfo /> */}
       </div>
     </AnimatedPage>
   );
