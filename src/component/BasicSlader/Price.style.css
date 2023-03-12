@@ -12,12 +12,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
-  .price {
-    background: rgba(0, 0, 0, 0);
-  }
-}
-
 .priceInfo {
   color: white;
   display: flex;
@@ -28,10 +22,10 @@
 
 .priceInfo h2 {
   font-size: 38px;
-  width: 420px;
+  max-width: 420px;
 }
 .priceInfo p {
-  width: 420px;
+  max-width: 420px;
   font-size: 22px;
   text-align: left;
 }

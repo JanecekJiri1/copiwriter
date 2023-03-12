@@ -1,30 +1,12 @@
 import React from "react";
-import "./About.style.css";
+import "./PhoneVesrsion.style.css";
 
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Swiper from "../../SwiperCarus";
 
-import { Link } from "react-router-dom";
-import AnimatedPage from "../AnimatedPage";
-import Swiper from "../SwiperCarus";
-
-function About(props) {
+function AboutP(props) {
   return (
-    <AnimatedPage>
-      <div className="about">
-        <div>
-          <div className="arrowNext">
-            <Link to="/">
-              <div className="leftInfo">
-                <IoIosArrowBack className="arrowNextIcons" />
-              </div>
-            </Link>
-            <Link to="/Price">
-              <div className="rightInfo">
-                <IoIosArrowForward className="arrowNextIcons" />
-              </div>
-            </Link>
-          </div>
-        </div>
+    <>
+      <div className="aboutPhone">
         <div className="aboutText">
           <h2>O mně:</h2>
           <p>
@@ -51,8 +33,8 @@ function About(props) {
           <Swiper />
         </div>
       </div>
-    </AnimatedPage>
+    </>
   );
 }
 
-export default About;
+export default AboutP;

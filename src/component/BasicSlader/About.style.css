@@ -1,7 +1,7 @@
 .about {
   height: auto;
   min-height: 100vh;
-  background: rgba(0, 0, 0, 0.6) url("../../assets/about.jpg");
+  background: rgba(0, 0, 0, 0.5) url("../../assets/about.jpg");
   background-blend-mode: darken;
 
   background-size: cover;
@@ -12,14 +12,12 @@
   justify-content: space-between;
 }
 
-/* @media screen and (max-width: 600px) {
-  .about {
-    background: rgba(0, 0, 0, 0);
-  }
-} */
-
 .aboutText {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  padding: 10px;
+  border-radius: 10px;
   color: white;
+  font-weight: bold;
   width: 800px;
   display: flex;
   flex-direction: column;

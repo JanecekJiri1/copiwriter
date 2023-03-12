@@ -58,84 +58,17 @@ path {
   margin: 2px;
 }
 
-/* .phoneVersionStyle {
-  display: none;
-} */
-
-@media screen and (max-width: 600px) {
-  /* .fullScreanV {
-    display: none;
-  } */
-  .phoneVersionStyle {
-    display: flex;
-    flex-direction: column;
-    background-image: url("./assets/infop.jpg") !important;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-}
-
-/* asoasddfhidfh n */
-html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family: sans-serif;
-}
-
-#root {
-  width: 100%;
-  height: 100%;
-}
-
-.hero-slider-overlay {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-.index-module_Horizontal__8-P70 {
-  /* display: none; */
-}
-
-ul > .index-module_Button__Xnq8E {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 360%;
-  height: 15px;
-  min-width: 15px;
-  border-bottom: none;
-  position: relative;
-  top: 10px;
-}
-
 ul > .index-module_Active__l5OO4 {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.heroS {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100vw;
-  border-top: 1px solid black;
-}
+/* slider with referece style ****************************/
 
 .referenceLinkP {
   color: blue;
 }
 .referenceLinkP:hover {
   text-decoration: underline;
-}
-
-.refSpan {
-  position: relative;
-  top: 15px;
 }
 
 .carouselText h2 {
@@ -153,15 +86,27 @@ ul > .index-module_Active__l5OO4 {
   height: 165px;
 }
 
-.swiper-pagination-bullets {
-  color: green;
-}
-
-.sectionTwo span {
-  color: red;
-}
-
 #root {
   --swiper-theme-color: rgba(0, 0, 0, 0.9);
   --swiper-pagination-bullet-size: 14px;
+}
+
+/* phone version ----------------------------- */
+.phoneVersionStyle {
+  background: rgba(0, 0, 0, 0.3) url("./assets/infop.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.phoneVersionShow {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .phoneVersionShow {
+    display: flex;
+  }
+  .phoneVersionHide {
+    display: none;
+  }
 }

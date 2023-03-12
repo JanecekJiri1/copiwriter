@@ -5,7 +5,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import { Link } from "react-router-dom";
 import AnimatedPage from "../AnimatedPage";
-import Swiper from "../Swiper";
+import Swiper from "../SwiperCarus";
 
 function Price(props) {
   return (

@@ -5,22 +5,16 @@
   background-size: 50%;
   background-position: right center;
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-@media screen and (max-width: 600px) {
-  .contactPage {
-    background: rgba(0, 0, 0, 0);
-  }
+  flex-direction: column;
 }
 
 .contactInfo {
   color: white;
-  width: 800px;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,13 +26,12 @@
 }
 
 .contactH2 {
-  color: white;
   width: 350px;
   font-size: 32px;
   margin: 35px 0;
 }
 
-/* .contactPage span {
+.contactPage .contactInfo span {
   font-size: 24px;
   width: 450px;
   display: flex;
@@ -48,7 +41,7 @@
   text-align: start;
   padding: 0;
   margin: 25px 0;
-} */
+}
 
 .icons {
   margin: 0 15px 0 0;

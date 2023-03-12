@@ -51,8 +51,7 @@ function createSlide3() {
     </SwiperSlide>
   );
 }
-
-export default () => {
+function SwiperCarus(props) {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
@@ -68,4 +67,6 @@ export default () => {
       </div>
     </Swiper>
   );
-};
+}
+
+export default SwiperCarus;
